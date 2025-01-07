@@ -1,0 +1,11 @@
+# Enforce LF for all text files
+* text=auto
+
+# Explicitly set CRLF for Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Ensure LF for source code
+*.java text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
